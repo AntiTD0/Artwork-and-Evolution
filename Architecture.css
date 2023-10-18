@@ -1,0 +1,2827 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair";
+}
+
+body{
+    height: 16000px;
+}
+
+
+
+
+.pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 450px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.pealkiri{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+.taustakas {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    min-height: 100vh;
+}
+
+
+.taustakas:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-image: url(Evolution-pildid/modern-architecture-10\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    filter: grayscale(1);
+    opacity: 0.6;
+    animation: külmu1 4s;
+}
+
+@keyframes külmu1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.6;
+    }
+}
+
+
+
+
+
+
+
+
+.nupp1 {
+    position: fixed;
+    height: 25px;
+    width: 70px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 22.5px;
+    margin-left: 22.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp1:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp1-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp1-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp1:hover .nupp1-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp1:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+.nupp2 {
+    position: fixed;
+    height: 25px;
+    width: 70px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 22.5px;
+    margin-left: 102.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp2:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp2-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp2-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp2:hover .nupp2-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp2:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nupp3 {
+    position: fixed;
+    height: 25px;
+    width: 90px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 22.5px;
+    margin-left: 182.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp3:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp3-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp3-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp3:hover .nupp3-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp3:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+.nupp4 {
+    position: fixed;
+    height: 25px;
+    width: 85px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 22.5px;
+    margin-left: 282.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp4:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp4-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp4-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp4:hover .nupp4-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp4:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nupp5 {
+    position: fixed;
+    height: 25px;
+    width: 75px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 22.5px;
+    margin-left: 376.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp5:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp5-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp5-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp5:hover .nupp5-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp5:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.esimene-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 515px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.esimene-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.esimene-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.esimene-pilt-raam{
+    height: 310px;
+    width: 550px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+}
+
+.esimene-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.esimene-pilt{
+    height: 300px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.esimene-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.esimene-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.esimene-tekst-raam{
+    height: 185px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1003px;
+
+   
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.esimene-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.teine-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 445px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.teine-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.teine-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.teine-pilt-raam{
+    height: 360px;
+    width: 360px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.teine-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.teine-pilt{
+    height: 350px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.teine-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.teine-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.teine-tekst-raam{
+    height: 330px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1053px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.teine-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.teine-suurkast{
+    margin-top: 819px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kolmas-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 395px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.kolmas-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.kolmas-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.kolmas-pilt-raam{
+    height: 335px;
+    width: 502px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.kolmas-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kolmas-pilt{
+    height: 325px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.kolmas-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.kolmas-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.kolmas-tekst-raam{
+    height: 305px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1028px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.kolmas-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.kolmas-suurkast{
+    margin-top: 1014px;
+}
+
+
+
+
+
+
+
+.kolmas-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 385px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.kolmas-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.kolmas-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.neljas-pilt-raam{
+    height: 315px;
+    width: 495px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.neljas-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.neljas-pilt{
+    height: 300px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.neljas-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.neljas-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.neljas-tekst-raam{
+    height: 185px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1008px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.neljas-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.neljas-suurkast{
+    margin-top: 964px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.neljas-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 290px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.neljas-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.neljas-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.viies-pilt-raam{
+    height: 340px;
+    width: 435px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.viies-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.viies-pilt{
+    height: 325px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.viies-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.viies-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.viies-tekst-raam{
+    height: 185px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1028px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.viies-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.viies-suurkast{
+    margin-top: 824px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.viies-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.viies-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.viies-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kuues-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 270px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.kuues-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.kuues-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.kuues-pilt-raam{
+    height: 390px;
+    width: 390px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.kuues-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kuues-pilt{
+    height: 375px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.kuues-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.kuues-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.kuues-tekst-raam{
+    height: 210px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1088px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.kuues-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.kuues-suurkast{
+    margin-top: 845px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seitsmes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 345px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.seitsmes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.seitsmes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.seitsmes-pilt-raam{
+    height: 350px;
+    width: 520px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.seitsmes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.seitsmes-pilt{
+    height: 335px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.seitsmes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.seitsmes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.seitsmes-tekst-raam{
+    height: 235px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1042px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.seitsmes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.seitsmes-suurkast{
+    margin-top: 929px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kaheksas-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 290px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.kaheksas-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.kaheksas-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.kaheksas-pilt-raam{
+    height: 350px;
+    width: 465px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.kaheksas-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kaheksas-pilt{
+    height: 335px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.kaheksas-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.kaheksas-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.kaheksas-tekst-raam{
+    height: 210px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1043px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.kaheksas-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.kaheksas-suurkast{
+    margin-top: 909px;
+}
+
+
+.link1{
+    color: white;
+    transition: 0.9s;
+}
+
+.link1:hover{
+    color: rgb(180,180,180);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.üheksas-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 270px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.üheksas-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.üheksas-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.üheksas-pilt-raam{
+    height: 350px;
+    width: 520px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.üheksas-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.üheksas-pilt{
+    height: 335px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.üheksas-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.üheksas-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: white;
+    cursor: default;
+}
+
+
+
+.üheksas-tekst-raam{
+    height: 210px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+   
+
+    margin-top: 1042px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.üheksas-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.üheksas-suurkast{
+    margin-top: 884px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kümnes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 355px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.kümnes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.kümnes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.kümnes-pilt-raam{
+    height: 350px;
+    width: 520px;
+    background-color: black;
+    position: absolute;
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.kümnes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kümnes-pilt{
+    height: 335px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.kümnes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.kümnes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-shadow: 0px 1px 0px black;
+}
+
+
+
+.kümnes-tekst-raam{
+    height: 185px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: rgb(255, 255, 255) solid 1.5px;
+   
+
+    margin-top: 1042px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.kümnes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.kümnes-suurkast{
+    margin-top: 884px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.üheteistkümnes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 335px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.üheteistkümnes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.üheteistkümnes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.üheteistkümnes-pilt-raam{
+    height: 467px;
+    width: 315px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.üheteistkümnes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.üheteistkümnes-pilt{
+    height: 450px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.üheteistkümnes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.üheteistkümnes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-shadow: 0px 1px 0px black;
+}
+
+
+
+.üheteistkümnes-tekst-raam{
+    height: 190px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: rgb(255, 255, 255) solid 1.5px;
+   
+
+    margin-top: 1160px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.üheteistkümnes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.üheteistkümnes-suurkast{
+    margin-top: 859px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kaheteistkümnes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 315px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.kaheteistkümnes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.kaheteistkümnes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.kaheteistkümnes-pilt-raam{
+    height: 365px;
+    width: 540px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.kaheteistkümnes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kaheteistkümnes-pilt{
+    height: 350px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.kaheteistkümnes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.kaheteistkümnes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-shadow: 0px 1px 0px black;
+}
+
+
+
+.kaheteistkümnes-tekst-raam{
+    height: 165px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: rgb(255, 255, 255) solid 1.5px;
+   
+
+    margin-top: 1058px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.kaheteistkümnes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.kaheteistkümnes-suurkast{
+    margin-top: 982px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kolmeteistkümnes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 325px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.kolmeteistkümnes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.kolmeteistkümnes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.kolmeteistkümnes-pilt-raam{
+    height: 465px;
+    width: 355px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.kolmeteistkümnes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kolmeteistkümnes-pilt{
+    height: 450px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.kolmeteistkümnes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.kolmeteistkümnes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-shadow: 0px 1px 0px black;
+}
+
+
+
+.kolmeteistkümnes-tekst-raam{
+    height: 140px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: rgb(255, 255, 255) solid 1.5px;
+   
+
+    margin-top: 1158px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.kolmeteistkümnes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.kolmeteistkümnes-suurkast{
+    margin-top: 854px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.neljateistkümnes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 285px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.neljateistkümnes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.neljateistkümnes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.neljateistkümnes-pilt-raam{
+    height: 375px;
+    width: 565px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.neljateistkümnes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.neljateistkümnes-pilt{
+    height: 360px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.neljateistkümnes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.neljateistkümnes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-shadow: 0px 1px 0px black;
+}
+
+
+
+.neljateistkümnes-tekst-raam{
+    height: 185px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: rgb(255, 255, 255) solid 1.5px;
+   
+
+    margin-top: 1068px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.neljateistkümnes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.neljateistkümnes-suurkast{
+    margin-top: 930px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.viieteistkümnes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 525px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.viieteistkümnes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.viieteistkümnes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.viieteistkümnes-pilt-raam{
+    height: 375px;
+    width: 495px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.viieteistkümnes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.viieteistkümnes-pilt{
+    height: 360px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.viieteistkümnes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.viieteistkümnes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-shadow: 0px 1px 0px black;
+}
+
+
+
+.viieteistkümnes-tekst-raam{
+    height: 210px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: rgb(255, 255, 255) solid 1.5px;
+   
+
+    margin-top: 1068px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.viieteistkümnes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.viieteistkümnes-suurkast{
+    margin-top: 885px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kuueteistkümnes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 420px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.kuueteistkümnes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.kuueteistkümnes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.kuueteistkümnes-pilt-raam{
+    height: 387px;
+    width: 480px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.kuueteistkümnes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kuueteistkümnes-pilt{
+    height: 370px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.kuueteistkümnes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.kuueteistkümnes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-shadow: 0px 1px 0px black;
+}
+
+
+
+.kuueteistkümnes-tekst-raam{
+    height: 160px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: rgb(255, 255, 255) solid 1.5px;
+   
+
+    margin-top: 1080px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.kuueteistkümnes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.kuueteistkümnes-suurkast{
+    margin-top: 910px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seitsmeteistkümnes-pealkiri-raam{
+    background-color: black;
+    height: 50px;
+    width: 420px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 570px;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+}
+
+
+.seitsmeteistkümnes-pealkiri{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.seitsmeteistkümnes-pealkiri-kast{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+.seitsmeteistkümnes-pilt-raam{
+    height: 387px;
+    width: 480px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 671px;
+
+}
+
+.seitsmeteistkümnes-pilt-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+.seitsmeteistkümnes-pilt{
+    height: 370px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+.seitsmeteistkümnes-pilt:hover{
+    filter: grayscale(0);
+
+
+}
+
+
+
+
+
+.seitsmeteistkümnes-tekst{
+    font-size: 20px;
+    position: absolute;
+    width: 800px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+    text-shadow: 0px 1px 0px black;
+}
+
+
+
+.seitsmeteistkümnes-tekst-raam{
+    height: 185px;
+    width: 830px;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: rgb(255, 255, 255) solid 1.5px;
+   
+
+    margin-top: 1080px;
+
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+.seitsmeteistkümnes-tekst-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.seitsmeteistkümnes-suurkast{
+    margin-top: 872px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seitsmeteistkümnes-pilt2-raam{
+    height: 210px;
+    width: 310px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: white solid 1.5px;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    margin-top: 761px;
+margin-left: 41px;
+}
+
+
+
+.seitsmeteistkümnes-pilt2{
+    height: 200px;
+    position: absolute;
+    filter: grayscale(1);
+    transition: 0.7s;
+    border-radius: 8px;
+}
+
+
+
+.seitsmeteistkümnes-pilt2-k{
+    color: white;
+    text-shadow: 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 5px black,0px 0px 5px black, 0px 0px 5px black;
+    z-index: 10;
+    margin-top: 250px;
+    opacity: 0;
+    margin-left: 18px;
+}
+
+
+
+.seitsmeteistkümnes-pilt2-raam:hover .seitsmeteistkümnes-pilt2-k{
+opacity: 1;
+transition: 2s 1s;
+}
+
+
+
+
+
+
+
+
+
+.seitsmeteistkümnes-pilt2:hover{
+    filter: grayscale(0);
+
+
+}
+
+

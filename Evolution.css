@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair";
+}
+
+
+.pealne {
+    position: relative;
+}
+
+
+.taustakas {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    min-height: 100vh;
+}
+
+
+.taustakas:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-image: url(/Evolution-kogum/Evolution-pildid/future_cityscape_4k-3840x2160.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    filter: grayscale(1);
+    opacity: 0.7;
+}
+
+
+body {
+    background-color: black;
+    opacity: 1;
+}
+
+
+
+
+
+
+.pealkiri {
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    animation: külm4 1.5s 3s;
+}
+
+@keyframes külm4{
+    from{
+text-shadow: 0px 0px 1px white,0px 0px 1px white,0px 0px 1px white,0px 0px 1px white,0px 0px 1px white,0px 0px 1px white,0px 0px 1px white,0px 0px 1px white,0px 0px 1px white,0px 0px 1px white;
+    }
+    to{
+
+    }
+}
+
+
+
+
+
+
+
+
+.pealkiri-raam {
+    height: 65px;
+    width: 225px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+    margin-top: 40px;
+}
+
+
+.pealkiri-kast {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vpealkiri {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+}
+
+
+.vpealkiri-raam {
+    height: 40px;
+    width: 125px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+    cursor: default;
+    margin-top: 120px;
+}
+
+
+.vpealkiri-kast {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nupp1 {
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 22.5px;
+    margin-left: 22.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black;
+}
+
+
+.nupp1:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp1-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -0.5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.7s;
+}
+
+
+.nupp1:hover .nupp1-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp1:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nupp2 {
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 22.5px;
+    margin-left: 115px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black;
+}
+
+
+.nupp2:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp2-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -7px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.7s;
+}
+
+
+.nupp2:hover .nupp2-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp2:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+.võrgustik {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 350px 404px 300px;
+    grid-template-rows: 240px;
+    height: 300px;
+    width: 1000px;
+    margin-top: 220px;
+}
+
+.võrgustik-kast {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt1 {
+    height: 200px;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: 0.7s;
+}
+
+.pilt1:hover {
+    filter: grayscale(0);
+}
+
+.pilt1-k {
+    color: white;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+    z-index: 2;
+    font-size: 30px;
+    cursor: default;
+    pointer-events: none;
+    position: absolute;
+    margin-top: 160px;
+    opacity: 0;
+}
+
+
+.pilt1-raam:hover .pilt1-k {
+    opacity: 1;
+    transition: 2s 1s;
+}
+
+
+
+.pilt1-raam {
+    height: 210px;
+    width: 310px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid white 1.5px;
+    margin-left: -73px;
+    animation: külm1 2.5s 0.7s forwards;
+    opacity: 0;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+@keyframes külm1 {
+    from {
+        opacity: 0;
+        transform: translateY(75px);
+        rotate: 12.5deg;
+    }
+
+    to {
+        
+        opacity: 1;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt2 {
+    height: 200px;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: 0.7s;
+}
+
+.pilt2:hover {
+    filter: grayscale(0);
+}
+
+.pilt2-k {
+    color: white;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+    z-index: 2;
+    font-size: 30px;
+    cursor: default;
+    pointer-events: none;
+    position: absolute;
+    margin-top: 160px;
+    opacity: 0;
+}
+
+
+.pilt2-raam:hover .pilt2-k {
+    opacity: 1;
+    transition: 2s 1s;
+}
+
+
+
+.pilt2-raam {
+    height: 210px;
+    width: 365px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid white 1.5px;
+    margin-left: -73px;
+    animation: külm2 2.5s 0.7s forwards;
+    opacity: 0;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+@keyframes külm2 {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+       
+    }
+
+    to {
+        
+        opacity: 1;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt3 {
+    height: 200px;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: 0.7s;
+}
+
+.pilt3:hover {
+    filter: grayscale(0);
+}
+
+.pilt3-k {
+    color: white;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+    z-index: 2;
+    font-size: 30px;
+    cursor: default;
+    pointer-events: none;
+    position: absolute;
+    margin-top: 160px;
+    opacity: 0;
+}
+
+
+.pilt3-raam:hover .pilt3-k {
+    opacity: 1;
+    transition: 2s 1s;
+}
+
+
+
+.pilt3-raam {
+    height: 210px;
+    width: 392px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid white 1.5px;
+    margin-left: -73px;
+    animation: külm3 2.5s 0.7s forwards;
+    opacity: 0;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+@keyframes külm3 {
+    from {
+        opacity: 0;
+        transform: translateY(75px);
+        rotate: -12.5deg;
+    }
+
+    to {
+        
+        opacity: 1;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.nupp3 {
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 22.5px;
+    margin-left: 208px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black,0px 0px 1px black;
+}
+
+
+.nupp3:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp3-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.7s;
+}
+
+
+.nupp3:hover .nupp3-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp3:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt4 {
+    height: 200px;
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: 0.7s;
+}
+
+.pilt4:hover {
+    filter: grayscale(0);
+}
+
+.pilt4-k {
+    color: white;
+    text-shadow: 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black, 0px 0px 5px black;
+    z-index: 2;
+    font-size: 30px;
+    cursor: default;
+    pointer-events: none;
+    position: absolute;
+    margin-top: 160px;
+    opacity: 0;
+}
+
+
+.pilt4-raam:hover .pilt4-k {
+    opacity: 1;
+    transition: 2s 1s;
+}
+
+
+
+.pilt4-raam {
+    height: 210px;
+    width: 392px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid white 1.5px;
+    margin-left: -73px;
+    animation: külm5 2.5s 0.7s forwards;
+    opacity: 0;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+@keyframes külm5 {
+    from {
+        opacity: 0;
+        transform: translateY(75px);
+        rotate: -12.5deg;
+    }
+
+    to {
+        
+        opacity: 1;
+        
+    }
+
+}
+
