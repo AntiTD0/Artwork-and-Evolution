@@ -1,0 +1,1133 @@
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "playfair";
+}
+
+
+
+
+
+
+.nupp1 {
+    position: fixed;
+    height: 25px;
+    width: 70px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: -582.5px;
+    margin-left: 22.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp1:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp1-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp1-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp1:hover .nupp1-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp1:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+.nupp2 {
+    position: fixed;
+    height: 25px;
+    width: 70px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: -582.5px;
+    margin-left: 102.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp2:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp2-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp2-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp2:hover .nupp2-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp2:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nupp3 {
+    position: fixed;
+    height: 25px;
+    width: 90px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: -582.5px;
+    margin-left: 182.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp3:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp3-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp3-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp3:hover .nupp3-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp3:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+.nupp4 {
+    position: fixed;
+    height: 25px;
+    width: 80px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: -582.5px;
+    margin-left: 282.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp4:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp4-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp4-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp4:hover .nupp4-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp4:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nupp5 {
+    position: fixed;
+    height: 25px;
+    width: 75px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: -582.5px;
+    margin-left: 372.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp5:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp5-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp5-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp5:hover .nupp5-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp5:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nupp6 {
+    position: fixed;
+    height: 25px;
+    width: 50px;
+    z-index: 10000000;
+    background-color: black;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: -582.5px;
+    margin-left: 456.5px;
+    transition: 0.9s;
+    box-shadow: 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black, 0px 0px 2px black;
+}
+
+
+.nupp6:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.nupp6-k {
+    font-size: 12px;
+    color: white;
+    text-shadow: 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    white-space: nowrap;
+    position: absolute;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.nupp6-k-k{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nupp6:hover .nupp6-k {
+    opacity: 1;
+    transition: 1.5s 1s;
+}
+
+
+.nupp6:active {
+    box-shadow: 0px 0px 11px white, 0px 0px 11px white;
+    border-color: white;
+    background-color: white;
+    color: white;
+    transition: 0.00001s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.taustakas{
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.taustakas:before{
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: url(/pildid/moon-1859616.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: grayscale(1);
+    opacity: 0.7;
+    animation: jah 4s;
+    position: fixed;
+}
+
+@keyframes jah {
+    from{
+opacity: 0;
+    }
+    to{
+opacity: 0.7;
+    }
+}
+
+
+
+
+body{
+    background-color: black;
+    opacity: 1;
+    height: 6000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pealkiri-kast{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.pealkiri-raam{
+height: 70px;
+width: 350px;
+background-color: black;
+border: white solid 1.5px;
+border-radius: 8px;
+position: absolute;
+margin-top: -330px;
+display: flex;
+justify-content: center;
+align-items: center;
+animation: liigu 3s;
+box-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px, 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px;
+}
+
+@keyframes liigu{
+    from{
+transform: translateX(75px);
+rotate: 8deg;
+opacity: 0;
+    }
+    to{
+opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+.pealkiri{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    cursor: default;
+    animation: sära 1.5s 3.5s;
+}
+
+@keyframes sära{
+    from{
+text-shadow: 0px 0px 1px white, 0px 0px 1px white, 0px 0px 1px white, 0px 0px 1px white, 0px 0px 1px white;
+    }
+    to{
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vpealkiri-kast{
+    display: flex;
+    justify-content: center;
+}
+
+.vpealkiri-raam{
+height: 35px;
+width: 250px;
+background-color: black;
+border: white solid 1.5px;
+border-radius: 8px;
+position: absolute;
+margin-top: -250px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+animation: tleSiia 3s;
+box-shadow: 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px, 0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px black,0px 0px 2px;
+}
+
+@keyframes tleSiia{
+    from{
+opacity: 0;
+transform: translateY(50px);
+    }
+    to{
+opacity: 1;
+    }
+}
+
+
+
+
+
+
+.vpealkiri{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    cursor: default;
+    opacity: 0;
+    white-space: nowrap;
+    animation: jaakene 2s 0.7s forwards;
+}
+
+@keyframes jaakene{
+    from{
+letter-spacing: -3px;
+opacity: 0;
+    }
+    to{
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+.pilt1-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt1-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt1-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp1{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+.võrgustik{
+    height: 2000px;
+    width: 1050px;
+    display: grid;
+    position: absolute;
+    margin-left: 106px;
+    margin-top: 100px;
+    grid-template-columns: 570px 390px;
+    grid-template-rows: 500px 500px 500px 500px 500px 500px 500px 500px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt2-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt2-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt2-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp2{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt3-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt3-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt3-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp3{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt4-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt4-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt4-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp4{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt5-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt5-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt5-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp5{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt6-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt6-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt6-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp6{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt7-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt7-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt7-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp7{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt8-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt8-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt8-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp8{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt9-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt9-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt9-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp9{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pilt10-ost{
+    height: 300px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+
+.pilt10-ost-raam{
+    height: 320px;
+    width: 420px;
+    background-color: black;
+    border: white solid 1.5px;
+    border-radius: 8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pilt10-ost-kast{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ostuNupp10{
+    width: 200px;
+    position: absolute;
+    margin-top: 340px;
+}
+
